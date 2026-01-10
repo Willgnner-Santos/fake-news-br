@@ -1,0 +1,36 @@
+﻿# Python/Jupyter
+**/__pycache__/
+**/*.pyc
+**/.ipynb_checkpoints/
+
+# Derivados / outputs (regeráveis) - IGNORAR
+codes/**/results/
+codes/**/plots*/
+codes/**/embeddings_cache/
+codes/**/cache*
+codes/**/neighbors*
+
+# Pastas e artefatos que estão te quebrando no push
+codes/analise-zeroShot-Ollama/eval_results_incremental_multi*.csv
+codes/analise-zeroShot-Ollama/results/*.pkl
+codes/analise-rag/*.index
+codes/analise-rag/*.npz
+
+# Muitos plots gerados pelo compose
+codes/GUIAIA-textualDataset-compose/plots_*/
+codes/GUIAIA-textualDataset-compose/plots_from_cache*/
+codes/GUIAIA-textualDataset-compose/plots_train_from_cache_all/
+codes/GUIAIA-textualDataset-compose/plots_unified_ptbr*/
+codes/GUIAIA-textualDataset-compose/embeddings_cache/
+
+# outputs / resultados (regeráveis)
+codes/**/results/
+codes/**/plots*/
+codes/**/embeddings_cache/
+codes/**/.ipynb_checkpoints/
+**/__pycache__/
+**/*.pyc
+
+# RAG artifacts
+codes/**/*.index
+codes/**/*.npz

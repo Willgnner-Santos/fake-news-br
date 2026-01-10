@@ -1,0 +1,36 @@
+{
+  "gemma2:9b": {
+    "labels": [
+      "FAKE",
+      "REAL"
+    ],
+    "confusion_matrix": [
+      [
+        2142,
+        1458
+      ],
+      [
+        218,
+        3382
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        FAKE       0.91      0.59      0.72      3600\n        REAL       0.70      0.94      0.80      3600\n\n    accuracy                           0.77      7200\n   macro avg       0.80      0.77      0.76      7200\nweighted avg       0.80      0.77      0.76      7200\n"
+  },
+  "gemma3:12b": {
+    "labels": [
+      "FAKE",
+      "REAL"
+    ],
+    "confusion_matrix": [
+      [
+        1547,
+        2053
+      ],
+      [
+        120,
+        3480
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n        FAKE       0.93      0.43      0.59      3600\n        REAL       0.63      0.97      0.76      3600\n\n    accuracy                           0.70      7200\n   macro avg       0.78      0.70      0.67      7200\nweighted avg       0.78      0.70      0.67      7200\n"
+  }
+}
